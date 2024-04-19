@@ -1,5 +1,6 @@
 const express = require("express");
 const fs = require("fs");
+require("module-alias/register");
 const app = express();
 const { logger, fatalError } = require("./utils");
 
